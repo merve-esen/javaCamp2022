@@ -5,11 +5,11 @@ public class Main {
 	public static void main(String[] args) {
 		int sayi = 23;
 		if (sayi < 20) {
-			System.out.println("Sayý 20'den küçüktür.");
+			System.out.println("SayÄ± 20'den kÃ¼Ã§Ã¼ktÃ¼r.");
 		} else if (sayi == 20) {
-			System.out.println("Sayý 20'ye eþittir.");
+			System.out.println("SayÄ± 20'ye eÅŸittir.");
 		} else {
-			System.out.println("Sayý 20'den büyüktür.");
+			System.out.println("SayÄ± 20'den bÃ¼yÃ¼ktÃ¼r.");
 		}
 	}
 

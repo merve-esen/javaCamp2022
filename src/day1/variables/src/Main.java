@@ -4,9 +4,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		int ogrenciSayisi = 12;
-		String mesaj = "Öğrenci sayısı: ";
+		String mesaj = "Ã–ÄŸrenci sayÄ±sÄ±: ";
 		System.out.println(mesaj + ogrenciSayisi);
-		System.out.println("Öğrenci sayısı: " + ogrenciSayisi);
+		System.out.println("Ã–ÄŸrenci sayÄ±sÄ±: " + ogrenciSayisi);
 	}
 
 }
