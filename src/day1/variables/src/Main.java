@@ -1,4 +1,4 @@
-package day1.variables;
+package day1.variables.src;
 
 public class Main {
 
@@ -7,7 +7,6 @@ public class Main {
 		String mesaj = "Öğrenci sayısı: ";
 		System.out.println(mesaj + ogrenciSayisi);
 		System.out.println("Öğrenci sayısı: " + ogrenciSayisi);
-
 	}
 
 }
