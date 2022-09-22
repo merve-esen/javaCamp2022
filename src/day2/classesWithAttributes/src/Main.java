@@ -4,17 +4,16 @@ public class Main {
 
 	public static void main(String[] args) {
 		Product product = new Product();
-		product.id = 1;
-		product.name = "Laptop";
-		product.description = "Asus Laptop";
-		product.price = 8000;
-		product.stockAmount = 11;
-		product.renk = "Siyah";
+		product.setId(1);
+		product.setName("Laptop");
+		product.setDescription("Asus Laptop");
+		product.setPrice(8000);
+		product.setStockAmount(11);
+		product.setRenk("Siyah");
 
 		ProductManager productManager = new ProductManager();
 		productManager.add(product);
-
-		//productManager.add2(2, "", "", 0, 2);
+		System.out.println(product.getKod());
 	}
 
 }
