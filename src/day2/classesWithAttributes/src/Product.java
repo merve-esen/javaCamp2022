@@ -1,6 +1,21 @@
 package day2.classesWithAttributes.src;
 
 public class Product {
+
+	public Product() {
+		System.out.println("Parametresiz yapıcı blok çalıştı");
+	}
+
+	public Product(int id, String name, String description, double price, int stockAmount, String renk) {
+		System.out.println("Parametreli yapıcı blok çalıştı");
+		this.id = id;
+		this.name = name;
+		this.description = description;
+		this.price = price;
+		this.stockAmount = stockAmount;
+		this.renk = renk;
+	}
+
 	// attribute | field
 	private int id;
 	private String name;
